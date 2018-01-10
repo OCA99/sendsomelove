@@ -6,8 +6,20 @@
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
+    padding-bottom: 5px;
 }
 
 .card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.open-card {
+	color: white;
+	transition: 0.3s;
+	text-align: center;
+	font-size: 12pt;
+}
+
+.card:hover > .open-card {
+	color: rgba(0,0,0,0.4);
 }
