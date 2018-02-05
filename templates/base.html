@@ -9,10 +9,22 @@
 </head>
 
 <body>
-	<div class="container" id="container">
-		{%block content%}
-		{%endblock%}     
+	<div class="wrapper" id="wrapper">
+		<section id="header" class="hero">
+			<div class="hero-head"></div>
+		</section>
+
+		<section id="content" class="section">
+			{%block content%}
+			{%endblock%}     
+		</section>
 	</div>
+
+	<footer id="footer" class="footer">
+		<div class="container">
+			MF Footer
+		</div>
+	</footer>
 </body>
 
 </html>
