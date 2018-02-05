@@ -7,6 +7,10 @@
 	margin-bottom: 15px;
 }
 
+#site-cards{
+	width: 80%;
+}
+
 .card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -15,8 +19,18 @@
 	padding-right: 1.5rem;
 }
 
+
+.card-description{
+
+}
+
+.card-image{
+	height: 100%;
+}
+
+/*
 .card-description {
 	min-height: 50%;
 	max-height: 50%;
 	text-overflow: ellipsis;
-}
+}*/
