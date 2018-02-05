@@ -14,3 +14,9 @@
 .card-heart {
 	padding-right: 1.5rem;
 }
+
+.card-description {
+	min-height: 50%;
+	max-height: 50%;
+	text-overflow: ellipsis;
+}
